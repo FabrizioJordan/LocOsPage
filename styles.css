@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+      font-family: 'OreganoReg';
+      font-style: normal;
+      font-weight: 400;
+      src: url(/assets/fonts/Oregano-Regular.ttf);
+}
+
+@layer base {
+    @font-face {
+      font-family: 'OreganoReg';
+      font-style: normal;
+      font-weight: 400;
+      src: url(/assets/fonts/Oregano-Regular.ttf) format('ttf');
+    }
+  }
