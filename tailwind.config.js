@@ -11,7 +11,7 @@ module.exports = {
         '2xs': {'max': '420px'},
       },
       fontFamily:{
-        'OreganoReg': ['OreganoReg', 'ui-serif']
+        'Oregano': ['Oregano', 'ui-serif']
       },
     },
   },

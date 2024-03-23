@@ -4,17 +4,37 @@
 
 
 @font-face {
-      font-family: 'OreganoReg';
-      font-style: normal;
-      font-weight: 400;
-      src: url(/assets/fonts/Oregano-Regular.ttf);
+  font-family: 'Oregano';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/Oregano-Regular.ttf);
 }
-
 @layer base {
     @font-face {
-      font-family: 'OreganoReg';
+      font-family: 'Oregano';
       font-style: normal;
       font-weight: 400;
       src: url(/assets/fonts/Oregano-Regular.ttf) format('ttf');
     }
   }
+
+
+
+  .bg-gradient-1{
+    background: #fcb900;
+background: -webkit-linear-gradient(151deg, #fcb900de 0%, #ff6200d8 50%, rgba(238, 0, 255, 0.644) 100%);
+background: linear-gradient(151deg, #fcb900de 0%, #ff6200d8 50%, rgba(238, 0, 255, 0.644) 100%);
+  }
+
+  .bg-gradient-2{
+    background: linear-gradient(135deg,rgb(252 185 0 / 70%) 0%,rgb(255 105 0 / 70%) 100%);
+  }
+
+  .bg-img-1{
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background: url(/assets/images/Linux-Penguin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
