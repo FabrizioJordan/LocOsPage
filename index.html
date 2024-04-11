@@ -9,32 +9,38 @@
     <link rel="shortcut icon" class="" href="/assets/icons/our/Logo-Loc-OS-150x150.png" type="image/x-icon">
 </head>
 
-<body class="bg-black text-white">
-    <header class="#bg-[#e28400]">
+<body class="bg-black text-white relative pt-96 ">
+    <div class="absolute w-full h-[26em] z-0 bg-config-2 top-0 bg-gradient-6"></div>
+
+    <header class="z-10 absolute border-custom-1 bg-config-2 top-0 left-0 right-0">
         <nav class="max-w-3xl m-auto flex flex-row justify-between items-center px-8 py-2">
             <a class="text-2xl font-Oregano tracking-wider font-bold" href="#">Loc-Os</a>
             <img class="w-12 h-12" src="/assets/icons/our/Logo-Loc-OS-150x150.png" alt="">
         </nav>
     </header>
-    <main class="flex flex-col gap-6">
+    <main class="flex flex-col gap-6 absolute top-16 w-full">
 
-        <div class="bg-[#9426269f]">
-            <section class="backdrop-brightness-50 flex flex-row justify-center items-center">
-                <article class=" w-full min-h-96 flex gap-10 justify-center items-center flex-col">
-                    <h1 class="font-Oregano text-5xl font-bold tracking-wider">Loc-OS 23</h1>
-                    <div
-                        class="flex flex-row justify-center items-center gap-4 [&>A]:rounded-md [&>A]:font-medium [&>A]:tracking-wider [&>A]:py-4 [&>A]:px-6 [&>A]:transition-all [&>A]:duration-500 hover:[&>A]:opacity-60">
-                        <a href="" class="bg-gradient-1 ">Descargar</a>
-                        <a href="" class="bg-gradient-1 ">Información</a>
-                    </div>
-                </article>
-                <article>
-                    <img class="w-96 " src="/assets/images/desktops/uno.png" alt="">
-                </article>
-            </section>
+
+        <div class="z-10"> <!-- poner nueva imagen o colores de fondo -->
+            <div class="bg-config-2 flex flex-row justify-center items-center w-full h-full">
+                <section class="flex flex-row justify-center items-center w-full h-full max-w-3xl m-auto">
+                    <article class="w-full min-h-96 h-full flex gap-12 justify-center items-center flex-col">
+                        <h1 class="font-Oregano text-5xl font-bold tracking-wider">Loc-OS 23</h1>
+                        <p class="max-w-sm ">La última versión del mejor sabor para revivir a tu PC antigua. Instalálo ahora mismo!</p>
+                        <div
+                            class="flex flex-row justify-center items-center gap-4 [&>A]:border-2 [&>A]:border-white [&>A]:rounded-md [&>A]:font-medium [&>A]:tracking-wider [&>A]:py-4 [&>A]:px-6 [&>A]:transition-all [&>A]:duration-500">
+                            <a href="" class="bg-white text-black hover:bg-opacity-90">Descargar</a>
+                            <a href="" class="hover:text-black hover:bg-white">Información</a>
+                        </div>
+                    </article>
+                    <article class="">
+                        <img class="" src="/assets/images/desktops/wea.png" alt="">
+                    </article>
+                </section>
+            </div>
         </div>
 
-        <section class="text-white py-12 px-8 text-center">
+        <section class="text-white py-12 px-8 text-center z-10">
             <div class="max-w-2xl m-auto flex flex-col justify-center items-center gap-10 text-balance [&_p]:leading-6">
                 <article class="flex flex-col gap-4">
                     <span class="text-[#e3e1dd3b] tracking-[.6em] font-bold">LA MEJOR ELECCIÓN</span>
@@ -161,11 +167,9 @@
             </div>
         </section>
 
-        <section class="">
-            <div class="p-12 m-0">
+        <section class="m-auto pr-8 pb-16">
                 <div class="">
                 <figure class=""><a href="https://hostinger.com/locosporlinux" target="_blank" rel="noreferrer noopener"><img width="970" height="250" src="https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1.png" alt="" class="wp-image-93" srcset="https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1.png 970w, https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1-300x77.png 300w, https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1-768x198.png 768w" sizes="(max-width: 970px) 100vw, 970px"></a></figure>
-                </div>
                 </div>
         </section>
 
@@ -173,3 +177,5 @@
 </body>
 
 </html>
+
+
