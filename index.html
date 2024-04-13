@@ -20,21 +20,19 @@
     </header>
     <main class="flex flex-col gap-6 absolute top-16 w-full">
 
-
-        <div class="z-10"> <!-- poner nueva imagen o colores de fondo -->
+        <div class="z-10">
             <div class="bg-config-2 flex flex-row justify-center items-center w-full h-full">
                 <section class="flex flex-row justify-center items-center w-full h-full max-w-3xl m-auto">
                     <article class="w-full min-h-96 h-full flex gap-12 justify-center items-center flex-col">
                         <h1 class="font-Oregano text-5xl font-bold tracking-wider">Loc-OS 23</h1>
                         <p class="max-w-sm ">La última versión del mejor sabor para revivir a tu PC antigua. Instalálo ahora mismo!</p>
-                        <div
-                            class="flex flex-row justify-center items-center gap-4 [&>A]:border-2 [&>A]:border-white [&>A]:rounded-md [&>A]:font-medium [&>A]:tracking-wider [&>A]:py-4 [&>A]:px-6 [&>A]:transition-all [&>A]:duration-500">
+                        <div class="flex flex-row justify-center items-center gap-4 [&>A]:border-2 [&>A]:border-white [&>A]:rounded-md [&>A]:font-extrabold [&>A]:tracking-wider [&>A]:py-4 [&>A]:px-6 [&>A]:transition-all [&>A]:duration-500">
                             <a href="" class="bg-white text-black hover:bg-opacity-90">Descargar</a>
                             <a href="" class="hover:text-black hover:bg-white">Información</a>
                         </div>
                     </article>
                     <article class="">
-                        <img class="" src="/assets/images/desktops/wea.png" alt="">
+                        <img class="" src="/assets/images/desktops/initImage.png" alt="">
                     </article>
                 </section>
             </div>
@@ -107,38 +105,45 @@
             </div>
         </section>
 
-        <section class="max-w-4xl m-auto flex flex-col justify-center items-center gap-6 p-6 text-pretty text-center">
-            <h2 class="text-2xl font-bold tracking-wider">¿QUIÉNES SOMOS?</h2>
-            <section class="flex flex-wrap flex-row justify-center items-center gap-6">
+        <section class="text-base [&_p]:leading-5 md:text-lg [&_p]:xl:text-2xl xl:leading-7 max-w-4xl xl:max-w-6xl m-auto flex flex-col justify-center items-center gap-6 p-6 text-pretty text-center">
+            <h2 class="text-2xl xl:text-3xl font-bold tracking-wider">¿QUIÉNES SOMOS?</h2>
+            <section class="flex flex-wrap flex-row justify-center items-center gap-6 tracking-wide
+            [&>article]:max-w-96 [&>article]:xl:max-w-lg [&>article]:border-2 [&>article]:border-[#4d5b6c29] [&>article]:py-12 [&>article]:px-8 [&>article]:md:px-12 [&>article]:flex [&>article]:flex-col-reverse [&>article]:justify-center [&>article]:items-center [&>article]:gap-8
+            [&_svg]:invert
+            [&_A]:flex [&_A]:flex-col [&_A]:justify-center [&_A]:items-center
+            [&_img]:size-12 [&_img]:xl:size-16 [&_img]:rounded-lg
+            ">
 
-                <article class="max-w-96 border-2 border-[#4d5b6c29] py-12 px-8 flex flex-col-reverse justify-center items-center gap-4">
-                    <div class="flex flex-row gap-4 justify-center items-center [&>A]:flex [&>A]:flex-col [&>A]:justify-center [&>A]:items-center">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="">YouTube</span></a>
-                        <a href="mailto:nico@locosporlinux.com" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="">E-Mail</span></a>
+                <article>
+                    <div class="flex flex-row gap-4 justify-center items-center [&_span]:text-base [&_span]:font-bold [&_span]:md:text-lg [&_span]:xl:text-2xl">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="font-bold">YouTube</span></a>
+                        <a href="mailto:nico@locosporlinux.com" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="font-bold text-base md:text-lg [&_p]:xl:text-2xl">E-Mail</span></a>
                     </div>
-                    <h1 class="font-bold text-2xl">Nicolas Longardi</h1>
-                    <img class="size-12 rounded-lg" src="/assets/images/nosotros/nico1.png" alt="">
-                    <p>Nacido en Uruguay. Creador original del proyecto y mantenedor principal. Sus funciones dentro del proyecto son las de crear y mantener el sistema completo. Desde generar las ISOs, compilar y empaquetar en deb, lpkg y lpkgbuild. Crear/mantener repositorios y servidores. Y creador/mantenedor de lpkg, lpkgbuild y los temas (con doble clic) de la versión LXDE.</p>
+                    <h1 class="font-bold text-2xl xl:text-3xl">Nicolas Longardi</h1>
+                    <img src="/assets/images/nosotros/nico1.png" alt="">
+                    <p><span class="font-bold">Nacido en Uruguay</span>. Creador original del proyecto y mantenedor principal. Sus funciones dentro del proyecto son las de crear y mantener el sistema completo. Desde generar las ISOs, compilar y empaquetar en deb, lpkg y lpkgbuild. Crear/mantener repositorios y servidores. Y creador/mantenedor de lpkg, lpkgbuild y los temas (con doble clic) de la versión LXDE.</p>
                 </article>
 
-                <article class="max-w-96 border-2 border-[#4d5b6c29] py-12 px-8 flex flex-col-reverse justify-center items-center gap-4">
-                    <div class="flex flex-row gap-4 justify-center items-center [&>A]:flex [&>A]:flex-col [&>A]:justify-center [&>A]:items-center">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="">YouTube</span></a>
-                        <a href="mailto:nico@locosporlinux.com" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="">E-Mail</span></a>
+
+                <article>
+                    <div class="flex flex-row gap-4 justify-center items-center [&_span]:text-base [&_span]:font-bold [&_span]:md:text-lg [&_span]:xl:text-2xl">
+                        <a href="https://t.me/+aGMshUM3XUwzNjlh"><svg width="24" height="24" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M28.9700376,63.3244248 C47.6273373,55.1957357 60.0684594,49.8368063 66.2934036,47.2476366 C84.0668845,39.855031 87.7600616,38.5708563 90.1672227,38.528 C90.6966555,38.5191258 91.8804274,38.6503351 92.6472251,39.2725385 C93.294694,39.7979149 93.4728387,40.5076237 93.5580865,41.0057381 C93.6433345,41.5038525 93.7494885,42.63857 93.6651041,43.5252052 C92.7019529,53.6451182 88.5344133,78.2034783 86.4142057,89.5379542 C85.5170662,94.3339958 83.750571,95.9420841 82.0403991,96.0994568 C78.3237996,96.4414641 75.5015827,93.6432685 71.9018743,91.2836143 C66.2690414,87.5912212 63.0868492,85.2926952 57.6192095,81.6896017 C51.3004058,77.5256038 55.3966232,75.2369981 58.9976911,71.4967761 C59.9401076,70.5179421 76.3155302,55.6232293 76.6324771,54.2720454 C76.6721165,54.1030573 76.7089039,53.4731496 76.3346867,53.1405352 C75.9604695,52.8079208 75.4081573,52.921662 75.0095933,53.0121213 C74.444641,53.1403447 65.4461175,59.0880351 48.0140228,70.8551922 C45.4598218,72.6091037 43.1463059,73.4636682 41.0734751,73.4188859 C38.7883453,73.3695169 34.3926725,72.1268388 31.1249416,71.0646282 C27.1169366,69.7617838 23.931454,69.0729605 24.208838,66.8603276 C24.3533167,65.7078514 25.9403832,64.5292172 28.9700376,63.3244248 Z"></path></svg><span>Telegram</span></a>
+                        <a href="mailto:anonyzard@loc-os.com"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span>Mail</span></a>
                     </div>
-                    <h1 class="font-bold text-2xl">Nicolas Longardi</h1>
-                    <img class="size-12 rounded-lg" src="/assets/images/nosotros/nico1.png" alt="">
-                    <p>Nacido en Uruguay. Creador original del proyecto y mantenedor principal. Sus funciones dentro del proyecto son las de crear y mantener el sistema completo. Desde generar las ISOs, compilar y empaquetar en deb, lpkg y lpkgbuild. Crear/mantener repositorios y servidores. Y creador/mantenedor de lpkg, lpkgbuild y los temas (con doble clic) de la versión LXDE.</p>
+                    <h1 class="font-bold text-2xl xl:text-3xl">José Leiva <span class="text-1xl xl:text-2xl">(Anonyzard)</span></h1>
+                    <img src="/assets/images/nosotros/anonyzard.png" alt="">
+                    <p>Un <span class="font-bold">joven argentino</span> estudiante de desarrollo de software. Es la mano derecha de Loc-OS, sus funciones principales son las de crear y mantener algunos paquetes deb, lpkg y scripts de lpkgbuild. Revisar y/o corregir posibles errores y es desarrollador/mantenedor de programas como Glpkg, Loc-Store y creador de un modulo de SysV init escrito en Python para el instalador Calamares.</p>
                 </article>
 
-                <article class="max-w-96 border-2 border-[#4d5b6c29] py-12 px-8 flex flex-col-reverse justify-center items-center gap-4">
-                    <div class="flex flex-row gap-4 justify-center items-center [&>A]:flex [&>A]:flex-col [&>A]:justify-center [&>A]:items-center">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="">YouTube</span></a>
-                        <a href="mailto:nico@locosporlinux.com" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/locosporlinux"><svg class="invert" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="">E-Mail</span></a>
+
+                <article>
+                    <div class="flex flex-row gap-4 justify-center items-center [&_span]:font-bold [&_span]:text-base [&_span]:md:text-lg [&_span]:xl:text-2xl">
+                        <a href="https://www.youtube.com/@KarlasProject"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="wp-block-social-link-label screen-reader-text">YouTube</span></a>
+                        <a href="mailto:karla@loc-os.com"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Mail</span></a>
                     </div>
-                    <h1 class="font-bold text-2xl">Nicolas Longardi</h1>
-                    <img class="size-12 rounded-lg" src="/assets/images/nosotros/nico1.png" alt="">
-                    <p>Nacido en Uruguay. Creador original del proyecto y mantenedor principal. Sus funciones dentro del proyecto son las de crear y mantener el sistema completo. Desde generar las ISOs, compilar y empaquetar en deb, lpkg y lpkgbuild. Crear/mantener repositorios y servidores. Y creador/mantenedor de lpkg, lpkgbuild y los temas (con doble clic) de la versión LXDE.</p>
+                    <h1 class="font-bold text-2xl xl:text-3xl">Karla Perez</h1>
+                    <img src="/assets/images/nosotros/karla.png" alt="">
+                    <p>Chica<span class="font-bold"> española, linuxera y youtuber</span>, fanática de KDE Plasma. Es la encargada al 100% de crear las versiones de Loc-OS con KDE Plasma, tanto en 32 como en 64 bits, con un nivel de optimización insuperable, llevando con Loc-OS al KDE Plasma posiblemente más ligero de todos. Es la nueva integrante del equipo y es de gran importancia para el proyecto.</p>
                 </article>
 
             </section>
@@ -167,10 +172,62 @@
             </div>
         </section>
 
-        <section class="m-auto pr-8 pb-16">
+        <section class="m-auto py-6">
                 <div class="">
                 <figure class=""><a href="https://hostinger.com/locosporlinux" target="_blank" rel="noreferrer noopener"><img width="970" height="250" src="https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1.png" alt="" class="wp-image-93" srcset="https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1.png 970w, https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1-300x77.png 300w, https://loc-os.com/wp-content/uploads/2023/12/WPH-970x250-1-768x198.png 768w" sizes="(max-width: 970px) 100vw, 970px"></a></figure>
                 </div>
+        </section>
+
+        <section class="relative text-center overflow-hidden bg-[#e67b3c]">
+            <div class="absolute top-0 bg-img-2 w-full h-full z-0">
+
+            </div>
+            <article class="flex flex-col gap-16 z-10 relative py-10 px-8 m-auto">
+                <header class="max-w-xl m-auto flex flex-col gap-4">
+                    <span class="text-[#e3e1dd6e] tracking-[.6em] font-bold">GALERÍA DE IMÁGENES</span>
+                    <h2 class="text-3xl font-bold tracking-wider">Algunas imágenes de escritorios personalizados por los usuarios</h2>
+                </header>
+                <footer class="flex flex-wrap gap-4 flex-row m-auto justify-center items-center [&>*]:rounded-md [&>*]:xl:w-sm [&>*]:xl:h-sm [&>*]:w-[320px] [&>*]:h-[180px] [&>*]:overflow-hidden [&>*]:transition-all [&>*]:duration-400 hover:[&>*]:scale-105">
+                    <img src="/assets/images/desktops/desks-in-grid/loc-os64bits-1024x640.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/neon-1024x576.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/anonyzard-desktop-1024x576.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/classic-1-1024x576.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/IMG_20231020_103018_522-768x432.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/code_20240212_031347_via_10015_io.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/i-desk-1024x575.png" alt="">
+                    <img src="/assets/images/desktops/desks-in-grid/linux-xp-1024x576.png" alt="">
+                </footer>
+            </article>
+        </section>
+
+        <section class="m-auto pb-16 text-center">
+            <h2 class="text-2xl font-bold tracking-wider py-4">Nos Apoya:</h2>
+            <figure class="wp-block-image alignright size-full is-resized"><a href="https://www.hostinger.com/locosporlinux" target="_blank" rel="noreferrer noopener"><img width="700" height="176" src="https://loc-os.com/wp-content/uploads/2023/11/hostingerlogo.png" alt="" class="wp-image-68" style="width:414px;height:auto" srcset="https://loc-os.com/wp-content/uploads/2023/11/hostingerlogo.png 700w, https://loc-os.com/wp-content/uploads/2023/11/hostingerlogo-300x75.png 300w" sizes="(max-width: 700px) 100vw, 700px"></a></figure>
+        </section>
+
+        <section class="text-center p-6 tracking-wider">
+            <section class="bg-img-3 rounded-md">
+                <article class="flex flex-col gap-10 p-8 rounded-md backdrop-hue-rotate-90 backdrop-brightness-75">
+                    <header>
+                        <h2 class="text-2xl font-bold tracking-wider">Links:</h2>
+                    </header>
+                    <div class="grid grid-cols-2 grid-rows-1 justify-center items-center gap-16 text-center">
+                        <nav class="flex flex-col flex-wrap gap-2 justify-center items-center content-end [&>A]:underline [&>A]:transition-opacity hover:[&>A]:opacity-70">
+                            <a href="https://t.me/locoslinux" target="_blank" rel="noreferrer noopener">Telegram (canal)</a>    
+                            <a href="https://loc-os.sourceforge.io/irc.html" target="_blank" rel="noreferrer noopener">IRC</a>
+                            <a href="https://info.loc-os.com/" target="_blank" rel="noreferrer noopener">Información</a>
+                            <a href="https://juegos.locosporlinux.com/" target="_blank" rel="noreferrer noopener">Juegos</a>
+                        </nav>
+                        <form class="flex items-start" action="https://www.paypal.com/donate" method="post" target="_top">
+                            <input type="hidden" name="hosted_button_id" value="APLUF8RUNP3RS">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+                            </form>
+                    </div>
+                    <footer>
+                        <h2 class="font-medium "><span class="font-extrabold">2024</span> LOCOS POR LINUX</h2>
+                    </footer>
+                </article>
+            </section>
         </section>
 
     </main>
