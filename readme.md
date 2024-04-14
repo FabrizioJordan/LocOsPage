@@ -31,3 +31,10 @@ En general recomiendo algún pequeño Footer, pero esta vez decidí no agregarlo
 
 6. Fuentes (fonts).
 
+La fuente que tiene la web para la gran mayoría de textos y títulos es "ui-sans-serif", y al principio los títulos "Loc-Os" tienen la misma fuente que la página anterior "Oregano". A mi parecer no es muy buena fuente y no queda de la mejor forma. 
+Pero al hacer la web no hice muchos cambios que haría por querer mantener "la esencia".
+
+7. Más páginas.
+
+Si se requiere crear más páginas como una de "Descargas" para descargar tanto las últimas mirrors como las anteriores entonces estaré encantado. También sería bueno una sección de "Testimonios", donde los usuarios muestren sus escritorios y digan que les pareció la distro.
+También estaré encantado de modificar la web https://info.loc-os.com ,aunque esté hecha con wordpress también he podría aprenderlo a manejar muy bien.
